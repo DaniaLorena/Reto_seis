@@ -1,0 +1,22 @@
+from funciones_punto_8 import *
+
+if __name__ == "__main__":
+    num_1 = int (input("Ingrese el primer numero: "))
+    num_2 = int (input("Ingrese el segundo numero: "))
+    num_3 = int (input("Ingrese el tercer numero: "))
+    num_4 = int (input("Ingrese el cuarto numero: "))
+    num_5 = int (input("Ingrese el quinto numero: "))
+    promedio = promedio (num_1, num_2, num_3, num_4, num_5)
+    print (f"El promedio es: {promedio}")
+    promedio_multi =  prom_mutiplicativo (num_1, num_2, num_3, num_4, num_5)
+    print (f"El pomedio multiplicativo de los numeros ingresados es: {promedio_multi}")
+    mediana  = mediana (num_1, num_2, num_3, num_4, num_5)
+    print (f"La mediana de los numeros igresados es: {mediana}")
+    orden_ascende = orden_ascedente (num_1, num_2, num_3, num_4, num_5)
+    print (f"Los numeros organizados de forma ascendente son: {orden_ascende}")
+    orden_descen = orden_descendente (num_1, num_2, num_3, num_4, num_5)
+    print (f"Los numeros organizados de forma descendetne son: {orden_descen}")
+    potencia = potencia (num_1, num_2, num_3, num_4, num_5)
+    print (f"La potencia del mayor numero elevado al menor es : {potencia}")
+    raiz = raiz_cubica (num_1, num_2, num_3, num_4, num_5)
+    print (f"La raiz cubica dem menor numero es: {raiz}")
